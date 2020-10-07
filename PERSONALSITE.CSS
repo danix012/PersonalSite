@@ -1,0 +1,92 @@
+  body{
+    margin: 0px;
+  background-color: #cedcde;
+  }
+  
+  div#navbar {
+        width: 100%;
+        background-color: #6D7776;
+        position: fixed;
+        margin-top: 0%;
+        
+        
+
+      }
+  
+  div#navbar .navbuttons:link{  
+    color: #e1f0f2;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+
+  }
+
+  div#navbar .navbuttons:hover {
+caret-color: black;
+   font-size: 20px;
+  }
+
+
+
+
+  .parallax-effect
+  {padding-top: 200px;
+     padding-bottom: 200px;
+      
+  opacity: 100%;
+      width: 100%; 
+      background-image: url("Business Card - Landscape.jpg");
+       background-attachment: fixed;
+        background-size: cover; 
+       background-repeat: no-repeat; 
+    background-position: top center;}
+
+    .parallax-effect2
+    {padding-top: 200px;
+       padding-bottom: 200px;
+        overflow: hidden; 
+        width: 100%; 
+        background-image: url("my loves-1.jpg");
+         background-attachment: fixed;
+          background-size: cover; 
+         -moz-background-size: cover; 
+         -webkit-background-size: cover; 
+         background-repeat: no-repeat; 
+      background-position: top center;}
+
+    .parallax-effect3
+    {padding-top: 200px;
+       padding-bottom: 200px;
+        overflow: hidden; 
+        width: 100%; 
+        background-image: url("Business Card - Portrait.jpg");
+         background-attachment: fixed;
+          background-size: cover; 
+         -moz-background-size: cover; 
+         -webkit-background-size: cover; 
+         background-repeat: no-repeat; 
+      background-position: top center;}
+
+
+/* 
+
+
+.parallax-effect {
+    /* The image used */
+    background-image: url("Business Card - Landscape.jpg");
+  
+    /* Set a specific height */
+    min-height: 1500px; 
+  width: 2000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
