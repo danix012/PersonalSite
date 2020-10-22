@@ -1,92 +1,92 @@
-  body{
-    margin: 0px;
-  background-color: #cedcde;
-  }
-  
-  div#navbar {
-        width: 100%;
-        background-color: #6D7776;
-        position: fixed;
-        margin-top: 0%;
-        
-        
+body {
+  background-color: #d2f5e3;
+  color: #6c8577;
 
-      }
-  
-  div#navbar .navbuttons:link{  
-    color: #e1f0f2;
-    
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    float: left;
+}
 
-  }
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  padding-left: 50px;
+}
 
-  div#navbar .navbuttons:hover {
-caret-color: black;
-   font-size: 20px;
-  }
+/* navbar */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #94b4a4;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+ 
+}
 
+.sidenav a, .dropdown-btn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f4d9c6;
+  display: block;
+  transition: 0.3s;
+  background:none;
+  margin: none;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #978278;
+  font-size: 30px;
+  transition: .5s;
+}
 
-
-  .parallax-effect
-  {padding-top: 200px;
-     padding-bottom: 200px;
-      
-  opacity: 100%;
-      width: 100%; 
-      background-image: url("Business Card - Landscape.jpg");
-       background-attachment: fixed;
-        background-size: cover; 
-       background-repeat: no-repeat; 
-    background-position: top center;}
-
-    .parallax-effect2
-    {padding-top: 200px;
-       padding-bottom: 200px;
-        overflow: hidden; 
-        width: 100%; 
-        background-image: url("my loves-1.jpg");
-         background-attachment: fixed;
-          background-size: cover; 
-         -moz-background-size: cover; 
-         -webkit-background-size: cover; 
-         background-repeat: no-repeat; 
-      background-position: top center;}
-
-    .parallax-effect3
-    {padding-top: 200px;
-       padding-bottom: 200px;
-        overflow: hidden; 
-        width: 100%; 
-        background-image: url("Business Card - Portrait.jpg");
-         background-attachment: fixed;
-          background-size: cover; 
-         -moz-background-size: cover; 
-         -webkit-background-size: cover; 
-         background-repeat: no-repeat; 
-      background-position: top center;}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
 
-/* 
 
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  /* display: none; */
+  background-color: #262626;
+  padding-left: 8px;
+}
+/* end navbar */
 
-.parallax-effect {
-    /* The image used */
-    background-image: url("Business Card - Landscape.jpg");
-  
-    /* Set a specific height */
-    min-height: 1500px; 
-  width: 2000px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+/* home page */
 
+h1 {
+  padding-left: 50%
+}
+
+.role {
+  padding-left: 10%;
+}
+
+#intro {
+  padding-left: 20px;
+padding-right: 20px;
+}
+
+/* contact me page */
+
+.contactme label {
+  padding-right: 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
+
+}
+
+#contactmemsg {
+  width: 200px;
+ height: 100px
+}
