@@ -1,92 +1,96 @@
 body {
-  background-color: #d2f5e3;
-  color: #6c8577;
-
+    background-color: #d2f5e3;
+    color: #6c8577;
 }
 
 #main {
-  transition: margin-left .5s;
-  padding: 16px;
-  padding-left: 50px;
+    transition: margin-left .5s;
+    padding: 16px;
+    padding-left: 50px;
+    color: #6c8577
 }
+
 
 /* navbar */
+
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #94b4a4;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
- 
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #94b4a4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-.sidenav a, .dropdown-btn {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #f4d9c6;
-  display: block;
-  transition: 0.3s;
-  background:none;
-  margin: none;
-  border: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
 }
 
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #978278;
-  font-size: 30px;
-  transition: .5s;
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #978278;
+    font-size: 30px;
+    transition: .5s;
 }
 
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
-
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
-  /* display: none; */
-  background-color: #262626;
-  padding-left: 8px;
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
 }
+
+
 /* end navbar */
+
 
 /* home page */
 
 h1 {
-  padding-left: 50%
+    padding-left: 50%
 }
 
 .role {
-  padding-left: 10%;
+    padding-left: 10%;
 }
 
 #intro {
-  padding-left: 20px;
-padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
 
 /* contact me page */
 
 .contactme label {
-  padding-right: 20px;
-  padding-bottom: 5px;
-  font-weight: bold;
-
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
 }
 
 #contactmemsg {
-  width: 200px;
- height: 100px
+    width: 200px;
+    height: 100px
 }
